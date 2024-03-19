@@ -17,7 +17,7 @@ footer {
 }
 .lista {
   display: flex;
-  height: 100px;
+  height: 100%;
   gap: 30px;
   align-items: center;
 }
