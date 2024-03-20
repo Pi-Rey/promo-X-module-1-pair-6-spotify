@@ -21,3 +21,20 @@ footer {
   gap: 30px;
   align-items: center;
 }
+.bannerazul {
+  background-image: url(../images/premium_dancer.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  /* busacr color hexadecimal fondo*/
+  background-color: blue;
+  color: white;
+  padding-left: 20px;
+}
+
+.linkverplanes {
+  color: white;
+}
+.pruebapremium {
+  font-size: 80px;
+}
