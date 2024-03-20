@@ -1,3 +1,6 @@
+:root{
+  font-family:"Roboto", sans-serif;
+}
 header {
   background-color: black;
   border: solid 3px;
@@ -37,4 +40,17 @@ footer {
 }
 .pruebapremium {
   font-size: 80px;
+}
+.section-por-que{
+  display:flex;
+  justify-content: space-between;
+  padding-left:20px;
+  padding-right: 20px;
+  flex-wrap:wrap;
+}
+.titulo-premium{ /*quizás crear un div para eso*/
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+  font-size: 60px;
 }
