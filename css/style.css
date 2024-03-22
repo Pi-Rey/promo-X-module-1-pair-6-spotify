@@ -1,56 +1,79 @@
 :root{
   font-family:"Roboto", sans-serif;
+  font-size: 10px;
+  --color-blanco: white;
+  --color-negro: black;
+  --font-size-title: 5rem;
+
 }
 header {
-  background-color: black;
-  border: solid 3px;
-  color: white;
+  background-color: var(--color-negro);
+  border: solid 0.3rem;
+  color: var(--color-blanco);
   display: flex;
   justify-content: space-between;
 }
 .lista_premium {
-  color: white;
+  color: var(--color-blanco);
 }
 footer {
-  height: 100px;
-  background-color: pink;
+  height: 10rem;
+  background-color: var(--color-negro)
 }
 .logo {
-  width: 120px;
+  width: 12rem;
 }
 .lista {
   display: flex;
   height: 100%;
-  gap: 30px;
+  gap: 3rem;
   align-items: center;
 }
 .bannerazul {
   background-image: url(../images/premium_dancer.png);
-  height: 500px;
+  height: 50rem;
   background-repeat: no-repeat;
   background-position: right top;
   /* busacr color hexadecimal fondo*/
   background-color: blue;
-  color: white;
-  padding-left: 20px;
+  color: var(--color-blanco);
+  padding-left: 2rem;
 }
 
 .linkverplanes {
-  color: white;
+  color: var(--color-blanco);
 }
 .pruebapremium {
-  font-size: 80px;
+  font-size: 8rem;
 }
 .section-por-que{
   display:flex;
   justify-content: space-between;
-  padding-left:20px;
-  padding-right: 20px;
+  padding-left:2rem;
+  padding-right: 2rem;
   flex-wrap:wrap;
 }
+.section__article{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+/*AQUÍ NOS HEMOS QUEDADO 22 marzo*/
+.section__article-texto{
+  border: solid 1px black;
+  margin: 4rem;
+}
+
+
 .titulo-premium{ /*quizás crear un div para eso*/
   font-weight: bold;
   text-align: center;
-  padding: 40px;
-  font-size: 60px;
+  padding: 4rem;
+  font-size: 6rem;
+}
+@media screen and (min-width: 1000px){
+  footer {
+    background-color: purple;
+  }
 }
