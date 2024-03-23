@@ -8,7 +8,6 @@
 }
 header {
   background-color: var(--color-negro);
-  border: solid 0.3rem;
   color: var(--color-blanco);
   display: flex;
   justify-content: space-between;
@@ -26,18 +25,23 @@ footer {
 .lista {
   display: flex;
   height: 100%;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
 }
 .bannerazul {
   background-image: url(../images/premium_dancer.png);
-  height: 50rem;
+  height: 55rem;
   background-repeat: no-repeat;
   background-position: right top;
   /* busacr color hexadecimal fondo*/
   background-color: blue;
   color: var(--color-blanco);
   padding-left: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  font-weight: bold;
 }
 
 .linkverplanes {
@@ -45,6 +49,18 @@ footer {
 }
 .pruebapremium {
   font-size: 8rem;
+}
+.bannerparrafo{
+  font-size: 2rem;
+}
+.linkverplanes{
+  background-color: #199319;
+  color: white;
+  text-decoration: none;
+  width: 9rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 15px;
 }
 .section-por-que{
   display:flex;
@@ -59,12 +75,18 @@ footer {
   gap: 3rem;
 }
 
-/*AQUÍ NOS HEMOS QUEDADO 22 marzo*/
-.section__article-texto{
-  border: solid 1px black;
-  margin: 4rem;
-}
 
+.section__article-texto{
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  gap: 1rem;
+}
+.section__article-texto h3{
+  font-weight: bold;
+}
 
 .titulo-premium{ /*quizás crear un div para eso*/
   font-weight: bold;
