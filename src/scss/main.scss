@@ -1,0 +1,24 @@
+/*@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+*/
+@import "core/reset";
+@import "layout/footer";
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  --color-blanco: white;
+  --color-negro: black;
+  --font-size-title: 5rem;
+}
+
+footer {
+  height: 10rem;
+  background-color: var(--color-negro);
+}

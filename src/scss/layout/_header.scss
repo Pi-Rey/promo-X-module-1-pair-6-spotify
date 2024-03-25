@@ -1,0 +1,84 @@
+header {
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  display: flex;
+  justify-content: space-between;
+}
+.lista_premium {
+  color: var(--color-blanco);
+}
+.logo {
+  width: 12rem;
+}
+.lista {
+  display: flex;
+  height: 100%;
+  gap: 1rem;
+  align-items: center;
+}
+.bannerazul {
+  background-image: url(./images/premium_dancer.png);
+  height: 55rem;
+  background-repeat: no-repeat;
+  background-position: right top;
+  /* busacr color hexadecimal fondo*/
+  background-color: blue;
+  color: var(--color-blanco);
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  font-weight: bold;
+}
+
+.linkverplanes {
+  color: var(--color-blanco);
+}
+.pruebapremium {
+  font-size: 8rem;
+}
+.bannerparrafo {
+  font-size: 2rem;
+}
+.linkverplanes {
+  background-color: #199319;
+  color: white;
+  text-decoration: none;
+  width: 9rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 15px;
+}
+.section-por-que {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  flex-wrap: wrap;
+}
+.section__article {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.section__article-texto {
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  gap: 1rem;
+}
+.section__article-texto h3 {
+  font-weight: bold;
+}
+
+.titulo-premium {
+  /*quizás crear un div para eso*/
+  font-weight: bold;
+  text-align: center;
+  padding: 4rem;
+  font-size: 6rem;
+}
