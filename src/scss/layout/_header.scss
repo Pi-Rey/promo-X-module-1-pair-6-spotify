@@ -17,10 +17,8 @@ header {
   align-items: center;
 }
 .bannerazul {
-  background-image: url(/images/premium_dancer.png);
   height: 55rem;
-  background-repeat: no-repeat;
-  background-position: right top;
+
   /* busacr color hexadecimal fondo*/
   background-color: blue;
   color: var(--color-blanco);
@@ -30,13 +28,18 @@ header {
   justify-content: center;
   gap: 3rem;
   font-weight: bold;
+  @media screen and (min-width: 480px) {
+    background-image: url(/images/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
 }
 
 .linkverplanes {
   color: var(--color-blanco);
 }
 .pruebapremium {
-  font-size: 8rem;
+  font-size: 1rem;
 }
 .bannerparrafo {
   font-size: 2rem;
